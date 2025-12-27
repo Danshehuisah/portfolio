@@ -31,6 +31,16 @@ revealElements.forEach((el) => {
 
 const sections = document.querySelectorAll("section[id]");
 const navLinks = document.querySelectorAll(".nav a");
+navLinks.forEach( navi => {
+  navi.addEventListener('click', () => {
+    // navi.classList.remove("visited-link");
+    // navi.classList.add("visited-nav");
+    // navLinks.style.color = null;
+    // navi.style.color = 'var(--accent)';
+    // console.log("visited");
+    
+  });
+});
 
 function activateNavLink() {
   let scrollY = window.pageYOffset;
@@ -134,3 +144,22 @@ navLinks.forEach(link => {
     menuBtn.setAttribute('aria-expanded', 'false');
 });
 });
+
+
+function revealOnScroll () {
+    const reveal = document.querySelectorAll('.anim');
+    reveal.forEach(section  => {
+        const windowHeight = window.innerHeight;
+        const sectionTop = section.getBoundingClientRect().top;
+        const revealPoint = 100;
+        if (sectionTop < windowHeight - revealPoint) {
+            section.classList.add('animation');
+        } else {
+            section.classList.remove('animation');
+        }
+    })
+}
+
+
+window.addEventListener('load', revealOnScroll);
+window.addEventListener('scroll', revealOnScroll);
