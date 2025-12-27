@@ -394,13 +394,14 @@ p {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.274);
+  background-color: hsla(0, 0%, 0%, 0.253);
   height: auto;
   /* border: 2px solid; */
 }
 
 .pc-image img {
   width: 100%;
+  aspect-ratio: 6/4;
 }
 
 /* =======================
