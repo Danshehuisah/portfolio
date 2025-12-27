@@ -107,9 +107,6 @@ p {
   backdrop-filter: blur(6px);
   z-index: 1000;
   border-bottom: 3px solid var(--border-soft);
-  transform: translateX(50px);
-  opacity: 0;
-  transition: all 0.5s ease-in-out;
   box-sizing: border-box;
 }
 
@@ -127,7 +124,7 @@ p {
 }
 
 .logo img {
-  width: 42px;
+  width: 70px;
   border-radius: 50%;
 }
 
@@ -326,7 +323,7 @@ p {
 .about-content {
   transform: translateY(50px);
   opacity: 0;
-  transition: all 0.5s ease-out;
+  transition: all 0.7s ease-out;
   /* color: var(--accent); */
 }
 
@@ -440,27 +437,27 @@ p {
 }
 
 .first {
-  transform: translateX(10px);
+  transform: scale(0.8);
   opacity: 0;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 
 .second {
-  transform: translateX(10px);
+  transform: scale(0.8);
   opacity: 0;
   transition: all 0.6s ease-in-out;
 }
 
 .third {
-  transform: translateX(10px);
+  transform: scale(0.8);
   opacity: 0;
-  transition: all 0.7s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 
 .fourth {
-  transform: translateX(10px);
+  transform: scale(0.8);
   opacity: 0;
-  transition: all 0.9s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 
 /* =======================
@@ -630,8 +627,8 @@ p {
 
 .animation {
   opacity: 1;
-  transform: translateX(0);
   transform: translateY(0);
+  transform: scale(1);
 }
 
 /* =======================
