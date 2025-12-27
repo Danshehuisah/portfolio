@@ -120,11 +120,12 @@ p {
 .logo {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
+  /* border: 1px solid; */
+  /* gap: 0.6rem; */
 }
 
 .logo img {
-  width: 70px;
+  width: 50px;
   border-radius: 50%;
 }
 
@@ -182,7 +183,8 @@ p {
   height: 40px;
   position: fixed;
   margin-top: -60px;
-  left: 90%;
+  /* left: 90%; */
+  right: 5px;
   /* border: 2px solid; */
   z-index: 1000;
   cursor: pointer;
