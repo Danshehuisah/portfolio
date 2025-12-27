@@ -110,6 +110,7 @@ p {
   transform: translateX(50px);
   opacity: 0;
   transition: all 0.5s ease-in-out;
+  box-sizing: border-box;
 }
 
 .nav-wrapper {
@@ -353,6 +354,7 @@ p {
 ======================= */
 .skills {
   /* filter: invert(); */
+  box-sizing: border-box;
 }
 .skills-grid {
   display: grid;
