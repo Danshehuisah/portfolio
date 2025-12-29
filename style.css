@@ -171,11 +171,6 @@ p {
   width: 25%;
 }
 
-.mobile-nav {
-  opacity: 0;
-  width: 0;
-  transition: all 2s ease-in;
-}
 
 /* ========= HAMBURGER ============= */
 .hamburger-container {
@@ -573,12 +568,10 @@ p {
     height: 100vh;
     background-color: black;
     padding: 25px;
-    padding-top: 70px;
+    padding-top: 100px;
+    box-sizing: border-box;
     outline: 1px solid var(--accent);
-    transition: all 1s ease;
-    /* transform: translateX(0); */
-    opacity: 1;
-    /* border-radius: 20px; */
+
 
   }
 
