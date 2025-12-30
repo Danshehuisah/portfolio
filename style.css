@@ -86,6 +86,8 @@ p {
   box-shadow: 0 10px 25px rgba(255, 166, 0, 0.35);
 }
 
+
+
 /* .btn-outline {
   border: 1px solid var(--accent);
   color: var(--accent);
@@ -318,9 +320,9 @@ p {
 }
 
 .about-content {
-  transform: translateY(50px);
+  transform: translateY(70px);
   opacity: 0;
-  transition: all 0.7s ease-out;
+  transition: all 1s ease-out;
   /* color: var(--accent); */
 }
 
@@ -496,9 +498,6 @@ p {
   justify-content: center;
 }
 
-.visit button a {
-}
-
 
 /* ================= CONTACT ================= */
 
@@ -575,7 +574,7 @@ p {
 
   }
 
-  .visited-nav {
+  .nav-link.active {
     color: var(--accent);
   }
 
